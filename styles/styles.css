@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+h1 {
+    font-size: 3rem;
+}
+form {
+    width: 75%;
+}
+input[type="text"]:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 .2rem rgba(220,53,69,.5);
+}
+.remove-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.bg-main {
+    background-color: #FF6961;
+}
+#generate-video {
+    min-height: calc(100vh - (56px + 40px));
+}
+#yt-video {
+    width: 480px;
+    height: 270px;
+}
+#status:empty {
+    display: none;
+}
